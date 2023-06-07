@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 23,
+  "agentName": "self-hosted-runner-using-docker",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelines.actions.githubusercontent.com/hqFeebPtRdnSjwA14Luw8i23gsNAau6pvqdHNsaWYLWZRgSkjX",
+  "gitHubUrl": "https://github.com/Ankit-Kr-Verma/GithubActionsSample",
+  "workFolder": "_work"
+}

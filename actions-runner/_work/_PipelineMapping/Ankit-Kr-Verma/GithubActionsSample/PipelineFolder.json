@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "Ankit-Kr-Verma/GithubActionsSample",
+  "pipelineDirectory": "GithubActionsSample",
+  "workspaceDirectory": "GithubActionsSample/GithubActionsSample",
+  "repositories": {
+    "Ankit-Kr-Verma/GithubActionsSample": {
+      "repositoryPath": "GithubActionsSample/GithubActionsSample",
+      "lastRunOn": "06/07/2023 11:51:37 +05:30"
+    }
+  },
+  "lastRunOn": "06/07/2023 11:52:29 +05:30"
+}

@@ -1,0 +1,139 @@
+[2023-06-07 06:12:56Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2023-06-07 06:12:56Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:12:56Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:12:56Z INFO HostContext] Well known config file 'Credentials': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.credentials'
+[2023-06-07 06:12:56Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:12:56Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:12:56Z INFO HostContext] Well known config file 'Runner': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.runner'
+[2023-06-07 06:12:57Z INFO Listener] Runner is built for OSX (X64) - osx-x64.
+[2023-06-07 06:12:57Z INFO Listener] RuntimeInformation: Darwin 22.4.0 Darwin Kernel Version 22.4.0: Mon Mar  6 21:00:41 PST 2023; root:xnu-8796.101.5~3/RELEASE_ARM64_T8103.
+[2023-06-07 06:12:57Z INFO Listener] Version: 2.304.0
+[2023-06-07 06:12:57Z INFO Listener] Commit: 9ef4121b5b31ee5c03b7770288213d741081f747
+[2023-06-07 06:12:57Z INFO Listener] Culture: en-IN
+[2023-06-07 06:12:57Z INFO Listener] UI Culture: en-IN
+[2023-06-07 06:12:57Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:12:57Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:12:57Z INFO Listener] Validating directory permissions for: '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:12:58Z INFO CommandLineParser] Parse
+[2023-06-07 06:12:58Z INFO CommandLineParser] Parsing 5 args
+[2023-06-07 06:12:58Z INFO CommandLineParser] parsing argument
+[2023-06-07 06:12:58Z INFO CommandLineParser] HasArgs: False
+[2023-06-07 06:12:58Z INFO CommandLineParser] Adding Command: configure
+[2023-06-07 06:12:58Z INFO CommandLineParser] parsing argument
+[2023-06-07 06:12:58Z INFO CommandLineParser] HasArgs: True
+[2023-06-07 06:12:58Z INFO CommandLineParser] arg: url
+[2023-06-07 06:12:58Z INFO CommandLineParser] parsing argument
+[2023-06-07 06:12:58Z INFO CommandLineParser] HasArgs: True
+[2023-06-07 06:12:58Z INFO CommandLineParser] Adding option 'url': 'https://github.com/Ankit-Kr-Verma/GithubActionsSample'
+[2023-06-07 06:12:58Z INFO CommandLineParser] parsing argument
+[2023-06-07 06:12:58Z INFO CommandLineParser] HasArgs: True
+[2023-06-07 06:12:58Z INFO CommandLineParser] arg: token
+[2023-06-07 06:12:58Z INFO CommandLineParser] parsing argument
+[2023-06-07 06:12:58Z INFO CommandLineParser] HasArgs: True
+[2023-06-07 06:12:58Z INFO CommandLineParser] Adding option 'token': '***'
+[2023-06-07 06:12:58Z INFO Listener] Arguments parsed
+[2023-06-07 06:12:58Z INFO Runner] ExecuteCommand
+[2023-06-07 06:12:58Z INFO ConfigurationStore] currentAssemblyLocation: /Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin/Runner.Listener.dll
+[2023-06-07 06:12:58Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:12:58Z INFO ConfigurationStore] binPath: /Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin
+[2023-06-07 06:12:58Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:12:58Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:12:58Z INFO ConfigurationStore] RootFolder: /Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner
+[2023-06-07 06:12:58Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:12:58Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:12:58Z INFO HostContext] Well known config file 'Runner': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.runner'
+[2023-06-07 06:12:58Z INFO ConfigurationStore] ConfigFilePath: /Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.runner
+[2023-06-07 06:12:58Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:12:58Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:12:58Z INFO HostContext] Well known config file 'Credentials': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.credentials'
+[2023-06-07 06:12:58Z INFO ConfigurationStore] CredFilePath: /Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.credentials
+[2023-06-07 06:12:58Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:12:58Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:12:58Z INFO HostContext] Well known config file 'MigratedCredentials': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.credentials_migrated'
+[2023-06-07 06:12:58Z INFO ConfigurationStore] MigratedCredFilePath: /Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.credentials_migrated
+[2023-06-07 06:12:58Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:12:58Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:12:58Z INFO HostContext] Well known config file 'Service': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.service'
+[2023-06-07 06:12:58Z INFO ConfigurationStore] ServiceConfigFilePath: /Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.service
+[2023-06-07 06:12:58Z INFO CommandSettings] Flag 'help': 'False'
+[2023-06-07 06:12:58Z INFO CommandSettings] Flag 'version': 'False'
+[2023-06-07 06:12:58Z INFO CommandSettings] Flag 'commit': 'False'
+[2023-06-07 06:12:58Z INFO CommandSettings] Flag 'check': 'False'
+[2023-06-07 06:12:58Z INFO CommandSettings] Command 'configure': 'True'
+[2023-06-07 06:12:59Z INFO Terminal] WRITE LINE: 
+[2023-06-07 06:12:59Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2023-06-07 06:12:59Z INFO Terminal] WRITE LINE: |        ____ _ _   _   _       _          _        _   _                      |
+[2023-06-07 06:12:59Z INFO Terminal] WRITE LINE: |       / ___(_) |_| | | |_   _| |__      / \   ___| |_(_) ___  _ __  ___      |
+[2023-06-07 06:12:59Z INFO Terminal] WRITE LINE: |      | |  _| | __| |_| | | | | '_ \    / _ \ / __| __| |/ _ \| '_ \/ __|     |
+[2023-06-07 06:12:59Z INFO Terminal] WRITE LINE: |      | |_| | | |_|  _  | |_| | |_) |  / ___ \ (__| |_| | (_) | | | \__ \     |
+[2023-06-07 06:12:59Z INFO Terminal] WRITE LINE: |       \____|_|\__|_| |_|\__,_|_.__/  /_/   \_\___|\__|_|\___/|_| |_|___/     |
+[2023-06-07 06:12:59Z INFO Terminal] WRITE LINE: |                                                                              |
+[2023-06-07 06:12:59Z INFO Terminal] WRITE: |                       
+[2023-06-07 06:12:59Z INFO Terminal] WRITE: Self-hosted runner registration
+[2023-06-07 06:12:59Z INFO Terminal] WRITE LINE:                         |
+[2023-06-07 06:12:59Z INFO Terminal] WRITE LINE: |                                                                              |
+[2023-06-07 06:12:59Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2023-06-07 06:12:59Z INFO ConfigurationManager] ConfigureAsync
+[2023-06-07 06:12:59Z INFO CommandSettings] Flag 'generateServiceConfig': 'False'
+[2023-06-07 06:12:59Z INFO ConfigurationStore] IsConfigured()
+[2023-06-07 06:12:59Z INFO ConfigurationStore] IsConfigured: False
+[2023-06-07 06:12:59Z INFO ConfigurationManager] Is configured: False
+[2023-06-07 06:12:59Z INFO CommandSettings] Arg 'url': 'https://github.com/Ankit-Kr-Verma/GithubActionsSample'
+[2023-06-07 06:12:59Z INFO CommandSettings] Remove url from Arg dictionary.
+[2023-06-07 06:12:59Z INFO CommandSettings] Arg 'token': '***'
+[2023-06-07 06:12:59Z INFO CommandSettings] Remove token from Arg dictionary.
+[2023-06-07 06:13:07Z INFO ConfigurationManager] Http response code: OK from 'POST https://api.github.com/actions/runner-registration' (C57C:0BFF:E20C15:EE4218:64801FF3)
+[2023-06-07 06:13:07Z INFO Terminal] WRITE LINE: Using V2 flow: False
+[2023-06-07 06:13:07Z INFO ConfigurationManager] cred retrieved via GitHub auth
+[2023-06-07 06:13:07Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 06:13:07Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2023-06-07 06:13:08Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 06:13:09Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 06:13:09Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 06:13:09Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 06:13:09Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 06:13:09Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 06:13:09Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 06:13:12Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 06:13:12Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 06:13:12Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 06:13:13Z INFO Terminal] WRITE LINE: 
+[2023-06-07 06:13:13Z INFO ConfigurationManager] Test Connection complete.
+[2023-06-07 06:13:13Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:13:13Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:13:13Z INFO HostContext] Well known config file 'RSACredentials': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.credentials_rsaparams'
+[2023-06-07 06:13:13Z INFO RSAFileKeyManager] Creating new RSA key using 2048-bit key length
+[2023-06-07 06:13:13Z INFO RSAFileKeyManager] Successfully saved RSA key parameters to file /Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.credentials_rsaparams
+[2023-06-07 06:13:13Z INFO RSAFileKeyManager] Which: 'chmod'
+[2023-06-07 06:13:13Z INFO RSAFileKeyManager] Location: '/bin/chmod'
+[2023-06-07 06:13:13Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:13:13Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:13:14Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 06:13:14Z INFO ProcessInvokerWrapper]   File name: '/bin/chmod'
+[2023-06-07 06:13:14Z INFO ProcessInvokerWrapper]   Arguments: '600 /Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.credentials_rsaparams'
+[2023-06-07 06:13:14Z INFO ProcessInvokerWrapper]   Working directory: '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:13:14Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-06-07 06:13:14Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 06:13:14Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-06-07 06:13:14Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 06:13:14Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 06:13:14Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 06:13:14Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-06-07 06:13:14Z INFO ProcessInvokerWrapper] Process started with process id 91582, waiting for process exit.
+[2023-06-07 06:13:14Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 06:13:14Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 06:13:14Z INFO ProcessInvokerWrapper] Finished process 91582 with exit code 0, and elapsed time 00:00:00.4032430.
+[2023-06-07 06:13:14Z INFO RSAFileKeyManager] Successfully set permissions for RSA key parameters file /Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.credentials_rsaparams
+[2023-06-07 06:13:15Z INFO CommandSettings] Arg 'runnergroup': ''
+[2023-06-07 06:13:15Z INFO CommandSettings] Flag 'unattended': 'False'
+[2023-06-07 06:13:15Z INFO PromptManager] ReadValue
+[2023-06-07 06:13:15Z INFO Terminal] WRITE: Enter the name of the runner group to add this runner to: 
+[2023-06-07 06:13:15Z INFO Terminal] WRITE: [press Enter for Default] 
+[2023-06-07 06:13:15Z INFO Terminal] READ LINE
+[2023-06-07 06:14:26Z INFO Terminal] Read value: 'self-hosted-runner-using-docker'
+[2023-06-07 06:14:26Z INFO Terminal] WRITE LINE: 
+[2023-06-07 06:14:27Z ERR  Runner] GitHub.DistributedTask.WebApi.TaskAgentPoolNotFoundException: Could not find any self-hosted runner group named "self-hosted-runner-using-docker".
+   at GitHub.Runner.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command)
+   at GitHub.Runner.Listener.Runner.ExecuteCommand(CommandSettings command)
+[2023-06-07 06:14:27Z ERR  Terminal] WRITE ERROR: Could not find any self-hosted runner group named "self-hosted-runner-using-docker".
+[2023-06-07 06:14:27Z INFO Listener] Runner execution has finished with return code 1

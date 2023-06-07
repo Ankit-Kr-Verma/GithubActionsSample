@@ -1,0 +1,188 @@
+[2023-06-07 06:18:14Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2023-06-07 06:18:14Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:18:14Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:18:14Z INFO HostContext] Well known config file 'Credentials': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.credentials'
+[2023-06-07 06:18:15Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:18:15Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:18:15Z INFO HostContext] Well known config file 'Runner': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.runner'
+[2023-06-07 06:18:15Z INFO Listener] Runner is built for OSX (X64) - osx-x64.
+[2023-06-07 06:18:15Z INFO Listener] RuntimeInformation: Darwin 22.4.0 Darwin Kernel Version 22.4.0: Mon Mar  6 21:00:41 PST 2023; root:xnu-8796.101.5~3/RELEASE_ARM64_T8103.
+[2023-06-07 06:18:15Z INFO Listener] Version: 2.304.0
+[2023-06-07 06:18:15Z INFO Listener] Commit: 9ef4121b5b31ee5c03b7770288213d741081f747
+[2023-06-07 06:18:15Z INFO Listener] Culture: en-IN
+[2023-06-07 06:18:15Z INFO Listener] UI Culture: en-IN
+[2023-06-07 06:18:15Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:18:15Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:18:15Z INFO Listener] Validating directory permissions for: '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:18:15Z INFO CommandLineParser] Parse
+[2023-06-07 06:18:15Z INFO CommandLineParser] Parsing 1 args
+[2023-06-07 06:18:15Z INFO CommandLineParser] parsing argument
+[2023-06-07 06:18:15Z INFO CommandLineParser] HasArgs: False
+[2023-06-07 06:18:15Z INFO CommandLineParser] Adding Command: run
+[2023-06-07 06:18:15Z INFO Listener] Arguments parsed
+[2023-06-07 06:18:15Z INFO Runner] ExecuteCommand
+[2023-06-07 06:18:15Z INFO ConfigurationStore] currentAssemblyLocation: /Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin/Runner.Listener.dll
+[2023-06-07 06:18:15Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:18:15Z INFO ConfigurationStore] binPath: /Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin
+[2023-06-07 06:18:15Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:18:15Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:18:15Z INFO ConfigurationStore] RootFolder: /Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner
+[2023-06-07 06:18:15Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:18:15Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:18:15Z INFO HostContext] Well known config file 'Runner': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.runner'
+[2023-06-07 06:18:15Z INFO ConfigurationStore] ConfigFilePath: /Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.runner
+[2023-06-07 06:18:15Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:18:15Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:18:15Z INFO HostContext] Well known config file 'Credentials': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.credentials'
+[2023-06-07 06:18:15Z INFO ConfigurationStore] CredFilePath: /Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.credentials
+[2023-06-07 06:18:15Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:18:15Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:18:15Z INFO HostContext] Well known config file 'MigratedCredentials': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.credentials_migrated'
+[2023-06-07 06:18:15Z INFO ConfigurationStore] MigratedCredFilePath: /Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.credentials_migrated
+[2023-06-07 06:18:15Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:18:15Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:18:15Z INFO HostContext] Well known config file 'Service': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.service'
+[2023-06-07 06:18:15Z INFO ConfigurationStore] ServiceConfigFilePath: /Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.service
+[2023-06-07 06:18:15Z INFO CommandSettings] Flag 'help': 'False'
+[2023-06-07 06:18:15Z INFO CommandSettings] Flag 'version': 'False'
+[2023-06-07 06:18:15Z INFO CommandSettings] Flag 'commit': 'False'
+[2023-06-07 06:18:15Z INFO CommandSettings] Flag 'check': 'False'
+[2023-06-07 06:18:15Z INFO CommandSettings] Command 'configure': 'False'
+[2023-06-07 06:18:15Z INFO CommandSettings] Command 'remove': 'False'
+[2023-06-07 06:18:15Z INFO CommandSettings] Command 'warmup': 'False'
+[2023-06-07 06:18:15Z INFO ConfigurationManager] LoadSettings
+[2023-06-07 06:18:15Z INFO ConfigurationStore] IsConfigured()
+[2023-06-07 06:18:15Z INFO ConfigurationStore] IsConfigured: True
+[2023-06-07 06:18:15Z INFO ConfigurationManager] Is configured: True
+[2023-06-07 06:18:15Z INFO ConfigurationStore] Read setting file: 323 chars
+[2023-06-07 06:18:15Z INFO ConfigurationManager] Settings Loaded
+[2023-06-07 06:18:15Z INFO ConfigurationStore] IsServiceConfigured()
+[2023-06-07 06:18:15Z INFO ConfigurationStore] IsServiceConfigured: False
+[2023-06-07 06:18:15Z INFO CommandSettings] Command 'run': 'True'
+[2023-06-07 06:18:15Z INFO ConfigurationStore] IsConfigured()
+[2023-06-07 06:18:15Z INFO ConfigurationStore] IsConfigured: True
+[2023-06-07 06:18:15Z INFO ConfigurationManager] Is configured: True
+[2023-06-07 06:18:15Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2023-06-07 06:18:15Z INFO Runner] Set runner startup type - Manual
+[2023-06-07 06:18:15Z INFO CommandSettings] Flag 'once': 'False'
+[2023-06-07 06:18:15Z INFO CommandSettings] Flag 'once': 'False'
+[2023-06-07 06:18:15Z INFO Runner] RunAsync
+[2023-06-07 06:18:15Z INFO ConfigurationManager] LoadSettings
+[2023-06-07 06:18:15Z INFO ConfigurationStore] IsConfigured()
+[2023-06-07 06:18:15Z INFO ConfigurationStore] IsConfigured: True
+[2023-06-07 06:18:15Z INFO ConfigurationManager] Is configured: True
+[2023-06-07 06:18:15Z INFO ConfigurationManager] Settings Loaded
+[2023-06-07 06:18:15Z INFO MessageListener] {
+  "AgentId": 23,
+  "AgentName": "self-hosted-runner-using-docker",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelines.actions.githubusercontent.com/hqFeebPtRdnSjwA14Luw8i23gsNAau6pvqdHNsaWYLWZRgSkjX",
+  "GitHubUrl": "https://github.com/Ankit-Kr-Verma/GithubActionsSample",
+  "WorkFolder": "_work"
+}
+[2023-06-07 06:18:15Z INFO MessageListener] Loading Credentials
+[2023-06-07 06:18:15Z INFO ConfigurationStore] HasCredentials()
+[2023-06-07 06:18:15Z INFO ConfigurationStore] stored True
+[2023-06-07 06:18:15Z INFO CredentialManager] GetCredentialProvider
+[2023-06-07 06:18:15Z INFO CredentialManager] Creating type OAuth
+[2023-06-07 06:18:15Z INFO CredentialManager] Creating credential type: OAuth
+[2023-06-07 06:18:15Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:18:15Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:18:15Z INFO HostContext] Well known config file 'RSACredentials': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.credentials_rsaparams'
+[2023-06-07 06:18:15Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.credentials_rsaparams
+[2023-06-07 06:18:15Z INFO MessageListener] Attempt to create session.
+[2023-06-07 06:18:15Z INFO MessageListener] Connecting to the Runner Server...
+[2023-06-07 06:18:15Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 06:18:15Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2023-06-07 06:18:15Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 06:18:15Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 06:18:15Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 06:18:15Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 06:18:15Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 06:18:15Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 06:18:15Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 06:18:19Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 06:18:19Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 06:18:19Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 06:18:20Z INFO MessageListener] VssConnection created
+[2023-06-07 06:18:20Z INFO Terminal] WRITE LINE: 
+[2023-06-07 06:18:20Z INFO Terminal] WRITE LINE: 
+[2023-06-07 06:18:20Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.credentials_rsaparams
+[2023-06-07 06:18:20Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.credentials_rsaparams
+[2023-06-07 06:18:22Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 06:18:23Z INFO MessageListener] Session created.
+[2023-06-07 06:18:23Z INFO Terminal] WRITE LINE: Current runner version: '2.304.0'
+[2023-06-07 06:18:23Z INFO Terminal] WRITE LINE: 2023-06-07 06:18:23Z: Listening for Jobs
+[2023-06-07 06:18:23Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2023-06-07 06:21:26Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.credentials_rsaparams
+[2023-06-07 06:21:26Z INFO MessageListener] Message '1' received from session '5ad42d5c-26a1-46b1-bf1d-97ddc7ab03c7'.
+[2023-06-07 06:21:26Z INFO Runner] Received job message of length 22028 from service, with hash '479d00474b7e5b859ab9c432146b5caaf9d7cdf5d06ba83a597a8cb73c788fba'
+[2023-06-07 06:21:26Z INFO JobDispatcher] Job request 3 for plan e248aeea-19b3-4bc3-a3bb-3997e4940fdb job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 received.
+[2023-06-07 06:21:26Z INFO JobDispatcher] Pull OrchestrationId e248aeea-19b3-4bc3-a3bb-3997e4940fdb.unit-test.__default from JWT claims
+[2023-06-07 06:21:27Z INFO Terminal] WRITE LINE: 2023-06-07 06:21:27Z: Running job: unit-test
+[2023-06-07 06:21:27Z INFO JobDispatcher] Start renew job request 3 for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-06-07 06:21:29Z INFO JobDispatcher] Successfully renew job request 3, job is valid till 07/06/2023 6:31:29 AM
+[2023-06-07 06:21:29Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:21:29Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 06:21:29Z INFO ProcessInvokerWrapper]   File name: '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin/Runner.Worker'
+[2023-06-07 06:21:29Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 106 109'
+[2023-06-07 06:21:29Z INFO ProcessInvokerWrapper]   Working directory: '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:21:29Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-06-07 06:21:29Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 06:21:29Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-06-07 06:21:29Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 06:21:29Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 06:21:29Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 06:21:29Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-06-07 06:21:29Z INFO ProcessInvokerWrapper] Process started with process id 92418, waiting for process exit.
+[2023-06-07 06:21:29Z INFO JobDispatcher] Send job request message to worker for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-06-07 06:21:29Z INFO ProcessChannel] Sending message of length 22028, with hash '479d00474b7e5b859ab9c432146b5caaf9d7cdf5d06ba83a597a8cb73c788fba'
+[2023-06-07 06:21:29Z INFO JobNotification] Entering JobStarted Notification
+[2023-06-07 06:21:29Z INFO JobNotification] Entering StartMonitor
+[2023-06-07 06:22:21Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 06:22:21Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 06:22:21Z INFO ProcessInvokerWrapper] Finished process 92418 with exit code 102, and elapsed time 00:00:52.4514749.
+[2023-06-07 06:22:21Z INFO JobDispatcher] Worker finished for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171. Code: 102
+[2023-06-07 06:22:21Z INFO JobDispatcher] finish job request for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 with result: Failed
+[2023-06-07 06:22:21Z INFO Terminal] WRITE LINE: 2023-06-07 06:22:21Z: Job unit-test completed with result: Failed
+[2023-06-07 06:22:21Z INFO JobDispatcher] Stop renew job request for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-06-07 06:22:21Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 3.
+[2023-06-07 06:22:21Z INFO JobNotification] Entering JobCompleted Notification
+[2023-06-07 06:22:21Z INFO JobNotification] Entering EndMonitor
+[2023-06-07 06:22:23Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.credentials_rsaparams
+[2023-06-07 06:22:23Z INFO MessageListener] Message '2' received from session '5ad42d5c-26a1-46b1-bf1d-97ddc7ab03c7'.
+[2023-06-07 06:22:23Z INFO Runner] Received job message of length 22028 from service, with hash '27f4f368ea614b8da02f8c23da999fd7a6b098f59b65fb8fbc820c17aa9a8c14'
+[2023-06-07 06:22:23Z INFO JobDispatcher] Job request 4 for plan 0211b680-104e-4b42-a4bd-a7199d9ab925 job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 received.
+[2023-06-07 06:22:23Z INFO JobDispatcher] Pull OrchestrationId 0211b680-104e-4b42-a4bd-a7199d9ab925.unit-test.__default from JWT claims
+[2023-06-07 06:22:23Z INFO JobDispatcher] Job request 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 processed succeed.
+[2023-06-07 06:22:23Z INFO Terminal] WRITE LINE: 2023-06-07 06:22:23Z: Running job: unit-test
+[2023-06-07 06:22:23Z INFO JobDispatcher] Start renew job request 4 for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-06-07 06:22:24Z INFO JobDispatcher] Successfully renew job request 4, job is valid till 07/06/2023 6:32:24 AM
+[2023-06-07 06:22:24Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:22:24Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 06:22:24Z INFO ProcessInvokerWrapper]   File name: '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin/Runner.Worker'
+[2023-06-07 06:22:24Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 106 109'
+[2023-06-07 06:22:24Z INFO ProcessInvokerWrapper]   Working directory: '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:22:24Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-06-07 06:22:24Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 06:22:24Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-06-07 06:22:24Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 06:22:24Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 06:22:24Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 06:22:24Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-06-07 06:22:24Z INFO ProcessInvokerWrapper] Process started with process id 92755, waiting for process exit.
+[2023-06-07 06:22:24Z INFO JobDispatcher] Send job request message to worker for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-06-07 06:22:24Z INFO ProcessChannel] Sending message of length 22028, with hash '27f4f368ea614b8da02f8c23da999fd7a6b098f59b65fb8fbc820c17aa9a8c14'
+[2023-06-07 06:22:24Z INFO JobNotification] Entering JobStarted Notification
+[2023-06-07 06:22:24Z INFO JobNotification] Entering StartMonitor
+[2023-06-07 06:23:08Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 06:23:08Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 06:23:08Z INFO ProcessInvokerWrapper] Finished process 92755 with exit code 102, and elapsed time 00:00:43.9301558.
+[2023-06-07 06:23:08Z INFO JobDispatcher] Worker finished for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171. Code: 102
+[2023-06-07 06:23:08Z INFO JobDispatcher] finish job request for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 with result: Failed
+[2023-06-07 06:23:08Z INFO Terminal] WRITE LINE: 2023-06-07 06:23:08Z: Job unit-test completed with result: Failed
+[2023-06-07 06:23:08Z INFO JobDispatcher] Stop renew job request for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-06-07 06:23:08Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 4.
+[2023-06-07 06:23:08Z INFO JobNotification] Entering JobCompleted Notification
+[2023-06-07 06:23:08Z INFO JobNotification] Entering EndMonitor
