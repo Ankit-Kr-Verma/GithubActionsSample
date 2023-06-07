@@ -1,0 +1,1496 @@
+[2023-06-07 06:42:22Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2023-06-07 06:42:22Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:42:22Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:42:22Z INFO HostContext] Well known config file 'Credentials': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.credentials'
+[2023-06-07 06:42:22Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:42:22Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:42:22Z INFO HostContext] Well known config file 'Runner': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.runner'
+[2023-06-07 06:42:22Z INFO Worker] Version: 2.304.0
+[2023-06-07 06:42:22Z INFO Worker] Commit: 9ef4121b5b31ee5c03b7770288213d741081f747
+[2023-06-07 06:42:22Z INFO Worker] Culture: en-IN
+[2023-06-07 06:42:22Z INFO Worker] UI Culture: en-IN
+[2023-06-07 06:42:22Z INFO Worker] Waiting to receive the job message from the channel.
+[2023-06-07 06:42:22Z INFO ProcessChannel] Receiving message of length 23803, with hash 'bfdd4bc1a0b1d10330f29a52681e0e2391017dc95f7d4677ae6e1c3424d3a0dd'
+[2023-06-07 06:42:22Z INFO Worker] Message received.
+[2023-06-07 06:42:22Z INFO Worker] Job message:
+ {
+  "fileTable": [
+    ".github/workflows/main.yml"
+  ],
+  "mask": [
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    }
+  ],
+  "steps": [
+    {
+      "type": "action",
+      "reference": {
+        "type": "repository",
+        "name": "actions/checkout",
+        "ref": "v3",
+        "repositoryType": "GitHub",
+        "path": ""
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 13,
+        "col": 15,
+        "lit": "Checkout the code"
+      },
+      "contextName": "__actions_checkout",
+      "condition": "success()",
+      "id": "a878fecf-9250-57e2-84e0-aae0213d4ecb",
+      "name": "__actions_checkout"
+    },
+    {
+      "type": "action",
+      "reference": {
+        "type": "repository",
+        "name": "docker/login-action",
+        "ref": "v3",
+        "repositoryType": "GitHub",
+        "path": ""
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 16,
+        "col": 15,
+        "lit": "Login to Docker Hub"
+      },
+      "contextName": "__docker_login-action",
+      "inputs": {
+        "type": 2,
+        "file": 1,
+        "line": 19,
+        "col": 11,
+        "map": [
+          {
+            "key": {
+              "type": 0,
+              "file": 1,
+              "line": 19,
+              "col": 11,
+              "lit": "username"
+            },
+            "value": {
+              "type": 3,
+              "file": 1,
+              "line": 19,
+              "col": 21,
+              "expr": "secrets.ankitverma123"
+            }
+          },
+          {
+            "key": {
+              "type": 0,
+              "file": 1,
+              "line": 20,
+              "col": 11,
+              "lit": "password"
+            },
+            "value": {
+              "type": 3,
+              "file": 1,
+              "line": 20,
+              "col": 21,
+              "expr": "secrets.dckr_pat_o1hx2Y1vNz3Q0mMb630t8YjXmKY"
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "82ab443e-9bd3-5200-f32e-acbf61d4cbd4",
+      "name": "__docker_login-action"
+    },
+    {
+      "type": "action",
+      "reference": {
+        "type": "repository",
+        "name": "actions/setup-java",
+        "ref": "v3",
+        "repositoryType": "GitHub",
+        "path": ""
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 22,
+        "col": 15,
+        "lit": "set up JDK 11"
+      },
+      "contextName": "__actions_setup-java",
+      "inputs": {
+        "type": 2,
+        "file": 1,
+        "line": 25,
+        "col": 11,
+        "map": [
+          {
+            "key": {
+              "type": 0,
+              "file": 1,
+              "line": 25,
+              "col": 11,
+              "lit": "java-version"
+            },
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 25,
+              "col": 25,
+              "lit": "11"
+            }
+          },
+          {
+            "key": {
+              "type": 0,
+              "file": 1,
+              "line": 26,
+              "col": 11,
+              "lit": "distribution"
+            },
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 26,
+              "col": 25,
+              "lit": "temurin"
+            }
+          },
+          {
+            "key": {
+              "type": 0,
+              "file": 1,
+              "line": 27,
+              "col": 11,
+              "lit": "cache"
+            },
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 27,
+              "col": 18,
+              "lit": "gradle"
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "d2b76292-91c8-5b36-3cde-6c876477222f",
+      "name": "__actions_setup-java"
+    },
+    {
+      "type": "action",
+      "reference": {
+        "type": "script"
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 29,
+        "col": 15,
+        "lit": "Grant execute permission for gradlew"
+      },
+      "contextName": "__run",
+      "inputs": {
+        "type": 2,
+        "map": [
+          {
+            "key": "script",
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 30,
+              "col": 14,
+              "lit": "chmod +x gradlew"
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "145553fb-1baa-5bc7-b18e-5469e21587f7",
+      "name": "__run"
+    },
+    {
+      "type": "action",
+      "reference": {
+        "type": "script"
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 32,
+        "col": 15,
+        "lit": "Run unit test cases"
+      },
+      "contextName": "__run_2",
+      "inputs": {
+        "type": 2,
+        "map": [
+          {
+            "key": "script",
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 33,
+              "col": 14,
+              "lit": "./gradlew test"
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "8615dfaf-7ef8-510a-52bc-76337457853a",
+      "name": "__run_2"
+    },
+    {
+      "type": "action",
+      "reference": {
+        "type": "repository",
+        "name": "actions/upload-artifact",
+        "ref": "v3",
+        "repositoryType": "GitHub",
+        "path": ""
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 35,
+        "col": 15,
+        "lit": "Upload unit test cases report"
+      },
+      "contextName": "__actions_upload-artifact",
+      "inputs": {
+        "type": 2,
+        "file": 1,
+        "line": 38,
+        "col": 11,
+        "map": [
+          {
+            "key": {
+              "type": 0,
+              "file": 1,
+              "line": 38,
+              "col": 11,
+              "lit": "name"
+            },
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 38,
+              "col": 17,
+              "lit": "unit_test_cases_report"
+            }
+          },
+          {
+            "key": {
+              "type": 0,
+              "file": 1,
+              "line": 39,
+              "col": 11,
+              "lit": "path"
+            },
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 39,
+              "col": 17,
+              "lit": "app/build/reports/tests/testDebugUnitTest/"
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "72b8d23d-dfe8-505c-688f-0fbedd5ca072",
+      "name": "__actions_upload-artifact"
+    }
+  ],
+  "variables": {
+    "system.isScheduled": {
+      "value": "False"
+    },
+    "system.servertype": {
+      "value": "Hosted"
+    },
+    "system.culture": {
+      "value": ""
+    },
+    "system.pipelineStartTime": {
+      "value": "2023-06-07 06:42:17+00:00"
+    },
+    "system.runner.lowdiskspacethreshold": {
+      "value": "100"
+    },
+    "DistributedTask.NewActionMetadata": {
+      "value": "true"
+    },
+    "DistributedTask.EnableCompositeActions": {
+      "value": "true"
+    },
+    "DistributedTask.EnhancedAnnotations": {
+      "value": "true"
+    },
+    "DistributedTask.UploadStepSummary": {
+      "value": "true"
+    },
+    "DistributedTask.AddWarningToNode12Action": {
+      "value": "true"
+    },
+    "DistributedTask.AllowRunnerContainerHooks": {
+      "value": "true"
+    },
+    "DistributedTask.DeprecateStepOutputCommands": {
+      "value": "true"
+    },
+    "system.teamProjectId": {
+      "value": "00000000-0000-0000-0000-000000000000"
+    },
+    "build.buildId": {
+      "value": "5"
+    },
+    "build.containerId": {
+      "value": "34759412"
+    },
+    "system.workflowFilePath": {
+      "value": ".github/workflows/main.yml"
+    },
+    "system.phaseDisplayName": {
+      "value": "unit-test"
+    },
+    "system.phaseId": {
+      "value": "f9b18aa4-1325-5d63-b757-65b914572d7c"
+    },
+    "system.phaseName": {
+      "value": "unit-test"
+    },
+    "system.phaseAttempt": {
+      "value": "1"
+    },
+    "system.jobIdentifier": {
+      "value": "unit-test.__default"
+    },
+    "system.jobAttempt": {
+      "value": "1"
+    },
+    "System.JobPositionInPhase": {
+      "value": "1"
+    },
+    "System.TotalJobsInPhase": {
+      "value": "1"
+    },
+    "system.github.job": {
+      "value": "unit-test"
+    },
+    "system.jobDisplayName": {
+      "value": "unit-test"
+    },
+    "system.jobId": {
+      "value": "0e10f8dd-85b5-5bee-19c6-47fc7db6f171"
+    },
+    "system.jobName": {
+      "value": "__default"
+    },
+    "system.github.token.permissions": {
+      "value": "{\"Contents\":\"read\",\"Metadata\":\"read\",\"Packages\":\"read\"}"
+    },
+    "system.github.token": {
+      "value": "***",
+      "isSecret": true
+    },
+    "system.runnerEnvironment": {
+      "value": "self-hosted"
+    },
+    "system.orchestrationId": {
+      "value": "402a8200-de9f-4b6d-9354-c2f6d4c51641.unit-test.__default"
+    },
+    "system.runnerGroupName": {
+      "value": "Default"
+    }
+  },
+  "messageType": "PipelineAgentJobRequest",
+  "plan": {
+    "scopeIdentifier": "00000000-0000-0000-0000-000000000000",
+    "planType": "Actions",
+    "version": 31,
+    "planId": "402a8200-de9f-4b6d-9354-c2f6d4c51641",
+    "planGroup": "Actions:00000000-0000-0000-0000-000000000000:1",
+    "artifactUri": "vstfs:///Build/Build/5",
+    "artifactLocation": null,
+    "definition": {
+      "_links": {},
+      "id": 3,
+      "name": "GithubActionsSample"
+    },
+    "owner": {
+      "_links": {},
+      "id": 3,
+      "name": "Ankit-Kr-Verma"
+    }
+  },
+  "timeline": {
+    "id": "402a8200-de9f-4b6d-9354-c2f6d4c51641",
+    "changeId": 0,
+    "location": null
+  },
+  "jobId": "0e10f8dd-85b5-5bee-19c6-47fc7db6f171",
+  "jobDisplayName": "unit-test",
+  "jobName": "__default",
+  "requestId": 5,
+  "lockedUntil": "0001-01-01T00:00:00",
+  "resources": {
+    "endpoints": [
+      {
+        "data": {
+          "ServerId": "21d3ca48-ffe5-428e-9fa4-60f336448049",
+          "ServerName": "hqFeebPtRdnSjwA14Luw8i23gsNAau6pvqdHNsaWYLWZRgSkjX",
+          "CacheServerUrl": "https://artifactcache.actions.githubusercontent.com/hqFeebPtRdnSjwA14Luw8i23gsNAau6pvqdHNsaWYLWZRgSkjX/",
+          "FeedStreamUrl": "https://pipelines.actions.githubusercontent.com/hqFeebPtRdnSjwA14Luw8i23gsNAau6pvqdHNsaWYLWZRgSkjX/00000000-0000-0000-0000-000000000000/_apis/distributedtask/hubs/Actions/plans/402a8200-de9f-4b6d-9354-c2f6d4c51641/timelines/402a8200-de9f-4b6d-9354-c2f6d4c51641/records/0e10f8dd-85b5-5bee-19c6-47fc7db6f171/feedstream?api-version=6.0-preview"
+        },
+        "name": "SystemVssConnection",
+        "url": "https://pipelines.actions.githubusercontent.com/hqFeebPtRdnSjwA14Luw8i23gsNAau6pvqdHNsaWYLWZRgSkjX/",
+        "authorization": {
+          "parameters": {
+            "AccessToken": ***
+          },
+          "scheme": "OAuth"
+        },
+        "isShared": false,
+        "isReady": true
+      }
+    ]
+  },
+  "contextData": {
+    "github": {
+      "t": 2,
+      "d": [
+        {
+          "k": "ref",
+          "v": "refs/heads/master"
+        },
+        {
+          "k": "sha",
+          "v": "bba0a82e531b37180d5d93cba0aba680c5c1be06"
+        },
+        {
+          "k": "repository",
+          "v": "Ankit-Kr-Verma/GithubActionsSample"
+        },
+        {
+          "k": "repository_owner",
+          "v": "Ankit-Kr-Verma"
+        },
+        {
+          "k": "repository_owner_id",
+          "v": "12911282"
+        },
+        {
+          "k": "repositoryUrl",
+          "v": "git://github.com/Ankit-Kr-Verma/GithubActionsSample.git"
+        },
+        {
+          "k": "run_id",
+          "v": "5196839356"
+        },
+        {
+          "k": "run_number",
+          "v": "5"
+        },
+        {
+          "k": "retention_days",
+          "v": "90"
+        },
+        {
+          "k": "run_attempt",
+          "v": "1"
+        },
+        {
+          "k": "artifact_cache_size_limit",
+          "v": "10"
+        },
+        {
+          "k": "repository_visibility",
+          "v": "public"
+        },
+        {
+          "k": "repo-self-hosted-runners-disabled",
+          "v": false
+        },
+        {
+          "k": "repository_id",
+          "v": "648572316"
+        },
+        {
+          "k": "actor_id",
+          "v": "12911282"
+        },
+        {
+          "k": "actor",
+          "v": "Ankit-Kr-Verma"
+        },
+        {
+          "k": "triggering_actor",
+          "v": "Ankit-Kr-Verma"
+        },
+        {
+          "k": "workflow",
+          "v": "Android Pull Request CI"
+        },
+        {
+          "k": "head_ref",
+          "v": ""
+        },
+        {
+          "k": "base_ref",
+          "v": ""
+        },
+        {
+          "k": "event_name",
+          "v": "push"
+        },
+        {
+          "k": "event",
+          "v": {
+            "t": 2,
+            "d": [
+              {
+                "k": "after",
+                "v": "bba0a82e531b37180d5d93cba0aba680c5c1be06"
+              },
+              {
+                "k": "base_ref",
+                "v": null
+              },
+              {
+                "k": "before",
+                "v": "e772245cc151a746b8619b9ae226acdcbb4e7b23"
+              },
+              {
+                "k": "commits",
+                "v": {
+                  "t": 1,
+                  "a": [
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "ankit.c.verma@rakuten.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Ankit Verma"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "ankit.c.verma@rakuten.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Ankit Verma"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "bba0a82e531b37180d5d93cba0aba680c5c1be06"
+                        },
+                        {
+                          "k": "message",
+                          "v": "updated main.yml - push & PR branch to master"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2023-06-07T12:12:06+05:30"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "7d343536c96df2fca12705fb04c4818ed64d1978"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/Ankit-Kr-Verma/GithubActionsSample/commit/bba0a82e531b37180d5d93cba0aba680c5c1be06"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "compare",
+                "v": "https://github.com/Ankit-Kr-Verma/GithubActionsSample/compare/e772245cc151...bba0a82e531b"
+              },
+              {
+                "k": "created",
+                "v": false
+              },
+              {
+                "k": "deleted",
+                "v": false
+              },
+              {
+                "k": "forced",
+                "v": false
+              },
+              {
+                "k": "head_commit",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "author",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "email",
+                            "v": "ankit.c.verma@rakuten.com"
+                          },
+                          {
+                            "k": "name",
+                            "v": "Ankit Verma"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "committer",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "email",
+                            "v": "ankit.c.verma@rakuten.com"
+                          },
+                          {
+                            "k": "name",
+                            "v": "Ankit Verma"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "distinct",
+                      "v": true
+                    },
+                    {
+                      "k": "id",
+                      "v": "bba0a82e531b37180d5d93cba0aba680c5c1be06"
+                    },
+                    {
+                      "k": "message",
+                      "v": "updated main.yml - push & PR branch to master"
+                    },
+                    {
+                      "k": "timestamp",
+                      "v": "2023-06-07T12:12:06+05:30"
+                    },
+                    {
+                      "k": "tree_id",
+                      "v": "7d343536c96df2fca12705fb04c4818ed64d1978"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://github.com/Ankit-Kr-Verma/GithubActionsSample/commit/bba0a82e531b37180d5d93cba0aba680c5c1be06"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "pusher",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "email",
+                      "v": "averma9127@gmail.com"
+                    },
+                    {
+                      "k": "name",
+                      "v": "Ankit-Kr-Verma"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "ref",
+                "v": "refs/heads/master"
+              },
+              {
+                "k": "repository",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "allow_forking",
+                      "v": true
+                    },
+                    {
+                      "k": "archive_url",
+                      "v": "https://api.github.com/repos/Ankit-Kr-Verma/GithubActionsSample/{archive_format}{/ref}"
+                    },
+                    {
+                      "k": "archived",
+                      "v": false
+                    },
+                    {
+                      "k": "assignees_url",
+                      "v": "https://api.github.com/repos/Ankit-Kr-Verma/GithubActionsSample/assignees{/user}"
+                    },
+                    {
+                      "k": "blobs_url",
+                      "v": "https://api.github.com/repos/Ankit-Kr-Verma/GithubActionsSample/git/blobs{/sha}"
+                    },
+                    {
+                      "k": "branches_url",
+                      "v": "https://api.github.com/repos/Ankit-Kr-Verma/GithubActionsSample/branches{/branch}"
+                    },
+                    {
+                      "k": "clone_url",
+                      "v": "https://github.com/Ankit-Kr-Verma/GithubActionsSample.git"
+                    },
+                    {
+                      "k": "collaborators_url",
+                      "v": "https://api.github.com/repos/Ankit-Kr-Verma/GithubActionsSample/collaborators{/collaborator}"
+                    },
+                    {
+                      "k": "comments_url",
+                      "v": "https://api.github.com/repos/Ankit-Kr-Verma/GithubActionsSample/comments{/number}"
+                    },
+                    {
+                      "k": "commits_url",
+                      "v": "https://api.github.com/repos/Ankit-Kr-Verma/GithubActionsSample/commits{/sha}"
+                    },
+                    {
+                      "k": "compare_url",
+                      "v": "https://api.github.com/repos/Ankit-Kr-Verma/GithubActionsSample/compare/{base}...{head}"
+                    },
+                    {
+                      "k": "contents_url",
+                      "v": "https://api.github.com/repos/Ankit-Kr-Verma/GithubActionsSample/contents/{+path}"
+                    },
+                    {
+                      "k": "contributors_url",
+                      "v": "https://api.github.com/repos/Ankit-Kr-Verma/GithubActionsSample/contributors"
+                    },
+                    {
+                      "k": "created_at",
+                      "v": 1685698206.0
+                    },
+                    {
+                      "k": "default_branch",
+                      "v": "master"
+                    },
+                    {
+                      "k": "deployments_url",
+                      "v": "https://api.github.com/repos/Ankit-Kr-Verma/GithubActionsSample/deployments"
+                    },
+                    {
+                      "k": "description",
+                      "v": "GithubActionSample"
+                    },
+                    {
+                      "k": "disabled",
+                      "v": false
+                    },
+                    {
+                      "k": "downloads_url",
+                      "v": "https://api.github.com/repos/Ankit-Kr-Verma/GithubActionsSample/downloads"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/repos/Ankit-Kr-Verma/GithubActionsSample/events"
+                    },
+                    {
+                      "k": "fork",
+                      "v": false
+                    },
+                    {
+                      "k": "forks",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_url",
+                      "v": "https://api.github.com/repos/Ankit-Kr-Verma/GithubActionsSample/forks"
+                    },
+                    {
+                      "k": "full_name",
+                      "v": "Ankit-Kr-Verma/GithubActionsSample"
+                    },
+                    {
+                      "k": "git_commits_url",
+                      "v": "https://api.github.com/repos/Ankit-Kr-Verma/GithubActionsSample/git/commits{/sha}"
+                    },
+                    {
+                      "k": "git_refs_url",
+                      "v": "https://api.github.com/repos/Ankit-Kr-Verma/GithubActionsSample/git/refs{/sha}"
+                    },
+                    {
+                      "k": "git_tags_url",
+                      "v": "https://api.github.com/repos/Ankit-Kr-Verma/GithubActionsSample/git/tags{/sha}"
+                    },
+                    {
+                      "k": "git_url",
+                      "v": "git://github.com/Ankit-Kr-Verma/GithubActionsSample.git"
+                    },
+                    {
+                      "k": "has_discussions",
+                      "v": false
+                    },
+                    {
+                      "k": "has_downloads",
+                      "v": true
+                    },
+                    {
+                      "k": "has_issues",
+                      "v": true
+                    },
+                    {
+                      "k": "has_pages",
+                      "v": false
+                    },
+                    {
+                      "k": "has_projects",
+                      "v": true
+                    },
+                    {
+                      "k": "has_wiki",
+                      "v": true
+                    },
+                    {
+                      "k": "homepage",
+                      "v": null
+                    },
+                    {
+                      "k": "hooks_url",
+                      "v": "https://api.github.com/repos/Ankit-Kr-Verma/GithubActionsSample/hooks"
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/Ankit-Kr-Verma/GithubActionsSample"
+                    },
+                    {
+                      "k": "id",
+                      "v": 648572316.0
+                    },
+                    {
+                      "k": "is_template",
+                      "v": false
+                    },
+                    {
+                      "k": "issue_comment_url",
+                      "v": "https://api.github.com/repos/Ankit-Kr-Verma/GithubActionsSample/issues/comments{/number}"
+                    },
+                    {
+                      "k": "issue_events_url",
+                      "v": "https://api.github.com/repos/Ankit-Kr-Verma/GithubActionsSample/issues/events{/number}"
+                    },
+                    {
+                      "k": "issues_url",
+                      "v": "https://api.github.com/repos/Ankit-Kr-Verma/GithubActionsSample/issues{/number}"
+                    },
+                    {
+                      "k": "keys_url",
+                      "v": "https://api.github.com/repos/Ankit-Kr-Verma/GithubActionsSample/keys{/key_id}"
+                    },
+                    {
+                      "k": "labels_url",
+                      "v": "https://api.github.com/repos/Ankit-Kr-Verma/GithubActionsSample/labels{/name}"
+                    },
+                    {
+                      "k": "language",
+                      "v": "TypeScript"
+                    },
+                    {
+                      "k": "languages_url",
+                      "v": "https://api.github.com/repos/Ankit-Kr-Verma/GithubActionsSample/languages"
+                    },
+                    {
+                      "k": "license",
+                      "v": null
+                    },
+                    {
+                      "k": "master_branch",
+                      "v": "master"
+                    },
+                    {
+                      "k": "merges_url",
+                      "v": "https://api.github.com/repos/Ankit-Kr-Verma/GithubActionsSample/merges"
+                    },
+                    {
+                      "k": "milestones_url",
+                      "v": "https://api.github.com/repos/Ankit-Kr-Verma/GithubActionsSample/milestones{/number}"
+                    },
+                    {
+                      "k": "mirror_url",
+                      "v": null
+                    },
+                    {
+                      "k": "name",
+                      "v": "GithubActionsSample"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "R_kgDOJqhtnA"
+                    },
+                    {
+                      "k": "notifications_url",
+                      "v": "https://api.github.com/repos/Ankit-Kr-Verma/GithubActionsSample/notifications{?since,all,participating}"
+                    },
+                    {
+                      "k": "open_issues",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "open_issues_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "owner",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "avatar_url",
+                            "v": "https://avatars.githubusercontent.com/u/12911282?v=4"
+                          },
+                          {
+                            "k": "email",
+                            "v": "averma9127@gmail.com"
+                          },
+                          {
+                            "k": "events_url",
+                            "v": "https://api.github.com/users/Ankit-Kr-Verma/events{/privacy}"
+                          },
+                          {
+                            "k": "followers_url",
+                            "v": "https://api.github.com/users/Ankit-Kr-Verma/followers"
+                          },
+                          {
+                            "k": "following_url",
+                            "v": "https://api.github.com/users/Ankit-Kr-Verma/following{/other_user}"
+                          },
+                          {
+                            "k": "gists_url",
+                            "v": "https://api.github.com/users/Ankit-Kr-Verma/gists{/gist_id}"
+                          },
+                          {
+                            "k": "gravatar_id",
+                            "v": ""
+                          },
+                          {
+                            "k": "html_url",
+                            "v": "https://github.com/Ankit-Kr-Verma"
+                          },
+                          {
+                            "k": "id",
+                            "v": 12911282.0
+                          },
+                          {
+                            "k": "login",
+                            "v": "Ankit-Kr-Verma"
+                          },
+                          {
+                            "k": "name",
+                            "v": "Ankit-Kr-Verma"
+                          },
+                          {
+                            "k": "node_id",
+                            "v": "MDQ6VXNlcjEyOTExMjgy"
+                          },
+                          {
+                            "k": "organizations_url",
+                            "v": "https://api.github.com/users/Ankit-Kr-Verma/orgs"
+                          },
+                          {
+                            "k": "received_events_url",
+                            "v": "https://api.github.com/users/Ankit-Kr-Verma/received_events"
+                          },
+                          {
+                            "k": "repos_url",
+                            "v": "https://api.github.com/users/Ankit-Kr-Verma/repos"
+                          },
+                          {
+                            "k": "site_admin",
+                            "v": false
+                          },
+                          {
+                            "k": "starred_url",
+                            "v": "https://api.github.com/users/Ankit-Kr-Verma/starred{/owner}{/repo}"
+                          },
+                          {
+                            "k": "subscriptions_url",
+                            "v": "https://api.github.com/users/Ankit-Kr-Verma/subscriptions"
+                          },
+                          {
+                            "k": "type",
+                            "v": "User"
+                          },
+                          {
+                            "k": "url",
+                            "v": "https://api.github.com/users/Ankit-Kr-Verma"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "private",
+                      "v": false
+                    },
+                    {
+                      "k": "pulls_url",
+                      "v": "https://api.github.com/repos/Ankit-Kr-Verma/GithubActionsSample/pulls{/number}"
+                    },
+                    {
+                      "k": "pushed_at",
+                      "v": 1686120133.0
+                    },
+                    {
+                      "k": "releases_url",
+                      "v": "https://api.github.com/repos/Ankit-Kr-Verma/GithubActionsSample/releases{/id}"
+                    },
+                    {
+                      "k": "size",
+                      "v": 159372.0
+                    },
+                    {
+                      "k": "ssh_url",
+                      "v": "git@github.com:Ankit-Kr-Verma/GithubActionsSample.git"
+                    },
+                    {
+                      "k": "stargazers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_url",
+                      "v": "https://api.github.com/repos/Ankit-Kr-Verma/GithubActionsSample/stargazers"
+                    },
+                    {
+                      "k": "statuses_url",
+                      "v": "https://api.github.com/repos/Ankit-Kr-Verma/GithubActionsSample/statuses/{sha}"
+                    },
+                    {
+                      "k": "subscribers_url",
+                      "v": "https://api.github.com/repos/Ankit-Kr-Verma/GithubActionsSample/subscribers"
+                    },
+                    {
+                      "k": "subscription_url",
+                      "v": "https://api.github.com/repos/Ankit-Kr-Verma/GithubActionsSample/subscription"
+                    },
+                    {
+                      "k": "svn_url",
+                      "v": "https://github.com/Ankit-Kr-Verma/GithubActionsSample"
+                    },
+                    {
+                      "k": "tags_url",
+                      "v": "https://api.github.com/repos/Ankit-Kr-Verma/GithubActionsSample/tags"
+                    },
+                    {
+                      "k": "teams_url",
+                      "v": "https://api.github.com/repos/Ankit-Kr-Verma/GithubActionsSample/teams"
+                    },
+                    {
+                      "k": "topics",
+                      "v": {
+                        "t": 1
+                      }
+                    },
+                    {
+                      "k": "trees_url",
+                      "v": "https://api.github.com/repos/Ankit-Kr-Verma/GithubActionsSample/git/trees{/sha}"
+                    },
+                    {
+                      "k": "updated_at",
+                      "v": "2023-06-07T06:30:00Z"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://github.com/Ankit-Kr-Verma/GithubActionsSample"
+                    },
+                    {
+                      "k": "visibility",
+                      "v": "public"
+                    },
+                    {
+                      "k": "watchers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "watchers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "web_commit_signoff_required",
+                      "v": false
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "sender",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "avatar_url",
+                      "v": "https://avatars.githubusercontent.com/u/12911282?v=4"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/users/Ankit-Kr-Verma/events{/privacy}"
+                    },
+                    {
+                      "k": "followers_url",
+                      "v": "https://api.github.com/users/Ankit-Kr-Verma/followers"
+                    },
+                    {
+                      "k": "following_url",
+                      "v": "https://api.github.com/users/Ankit-Kr-Verma/following{/other_user}"
+                    },
+                    {
+                      "k": "gists_url",
+                      "v": "https://api.github.com/users/Ankit-Kr-Verma/gists{/gist_id}"
+                    },
+                    {
+                      "k": "gravatar_id",
+                      "v": ""
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/Ankit-Kr-Verma"
+                    },
+                    {
+                      "k": "id",
+                      "v": 12911282.0
+                    },
+                    {
+                      "k": "login",
+                      "v": "Ankit-Kr-Verma"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "MDQ6VXNlcjEyOTExMjgy"
+                    },
+                    {
+                      "k": "organizations_url",
+                      "v": "https://api.github.com/users/Ankit-Kr-Verma/orgs"
+                    },
+                    {
+                      "k": "received_events_url",
+                      "v": "https://api.github.com/users/Ankit-Kr-Verma/received_events"
+                    },
+                    {
+                      "k": "repos_url",
+                      "v": "https://api.github.com/users/Ankit-Kr-Verma/repos"
+                    },
+                    {
+                      "k": "site_admin",
+                      "v": false
+                    },
+                    {
+                      "k": "starred_url",
+                      "v": "https://api.github.com/users/Ankit-Kr-Verma/starred{/owner}{/repo}"
+                    },
+                    {
+                      "k": "subscriptions_url",
+                      "v": "https://api.github.com/users/Ankit-Kr-Verma/subscriptions"
+                    },
+                    {
+                      "k": "type",
+                      "v": "User"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://api.github.com/users/Ankit-Kr-Verma"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "k": "server_url",
+          "v": "https://github.com"
+        },
+        {
+          "k": "api_url",
+          "v": "https://api.github.com"
+        },
+        {
+          "k": "graphql_url",
+          "v": "https://api.github.com/graphql"
+        },
+        {
+          "k": "ref_name",
+          "v": "master"
+        },
+        {
+          "k": "ref_protected",
+          "v": false
+        },
+        {
+          "k": "ref_type",
+          "v": "branch"
+        },
+        {
+          "k": "secret_source",
+          "v": "Actions"
+        },
+        {
+          "k": "workflow_ref",
+          "v": "Ankit-Kr-Verma/GithubActionsSample/.github/workflows/main.yml@refs/heads/master"
+        },
+        {
+          "k": "workflow_sha",
+          "v": "bba0a82e531b37180d5d93cba0aba680c5c1be06"
+        }
+      ]
+    },
+    "partialrerun": false,
+    "needs": {
+      "t": 2
+    },
+    "vars": null,
+    "inputs": {
+      "t": 2
+    },
+    "matrix": null,
+    "strategy": {
+      "t": 2,
+      "d": [
+        {
+          "k": "fail-fast",
+          "v": true
+        },
+        {
+          "k": "job-index",
+          "v": 0.0
+        },
+        {
+          "k": "job-total",
+          "v": 1.0
+        },
+        {
+          "k": "max-parallel",
+          "v": 1.0
+        }
+      ]
+    }
+  }
+}
+[2023-06-07 06:42:22Z INFO JobRunner] Job ID 0e10f8dd-85b5-5bee-19c6-47fc7db6f171
+[2023-06-07 06:42:22Z INFO JobRunner] Creating job server with URL: https://pipelines.actions.githubusercontent.com/hqFeebPtRdnSjwA14Luw8i23gsNAau6pvqdHNsaWYLWZRgSkjX/
+[2023-06-07 06:42:23Z INFO ConfigurationStore] currentAssemblyLocation: /Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin/Runner.Worker.dll
+[2023-06-07 06:42:23Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:42:23Z INFO ConfigurationStore] binPath: /Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin
+[2023-06-07 06:42:23Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:42:23Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:42:23Z INFO ConfigurationStore] RootFolder: /Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner
+[2023-06-07 06:42:23Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:42:23Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:42:23Z INFO HostContext] Well known config file 'Runner': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.runner'
+[2023-06-07 06:42:23Z INFO ConfigurationStore] ConfigFilePath: /Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.runner
+[2023-06-07 06:42:23Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:42:23Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:42:23Z INFO HostContext] Well known config file 'Credentials': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.credentials'
+[2023-06-07 06:42:23Z INFO ConfigurationStore] CredFilePath: /Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.credentials
+[2023-06-07 06:42:23Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:42:23Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:42:23Z INFO HostContext] Well known config file 'MigratedCredentials': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.credentials_migrated'
+[2023-06-07 06:42:23Z INFO ConfigurationStore] MigratedCredFilePath: /Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.credentials_migrated
+[2023-06-07 06:42:23Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:42:23Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:42:23Z INFO HostContext] Well known config file 'Service': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.service'
+[2023-06-07 06:42:23Z INFO ConfigurationStore] ServiceConfigFilePath: /Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.service
+[2023-06-07 06:42:23Z INFO ConfigurationStore] Read setting file: 323 chars
+[2023-06-07 06:42:23Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 06:42:23Z INFO Worker] Listening for cancel message from the channel.
+[2023-06-07 06:42:23Z INFO Worker] Waiting for the job to complete or for a cancel message from the channel.
+[2023-06-07 06:42:26Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 06:42:27Z INFO JobServer] Creating websocket client ...wss://pipelines.actions.githubusercontent.com/hqFeebPtRdnSjwA14Luw8i23gsNAau6pvqdHNsaWYLWZRgSkjX/00000000-0000-0000-0000-000000000000/_apis/distributedtask/hubs/Actions/plans/402a8200-de9f-4b6d-9354-c2f6d4c51641/timelines/402a8200-de9f-4b6d-9354-c2f6d4c51641/records/0e10f8dd-85b5-5bee-19c6-47fc7db6f171/feedstream?api-version=6.0-preview
+[2023-06-07 06:42:27Z INFO JobServer] Attempting to start websocket client with delay 00:00:00.
+[2023-06-07 06:42:27Z INFO JobServerQueue] Start process web console line queue.
+[2023-06-07 06:42:27Z INFO JobServerQueue] Start process file upload queue.
+[2023-06-07 06:42:27Z INFO JobServerQueue] Start results file upload queue.
+[2023-06-07 06:42:27Z INFO JobServerQueue] Starting results-based upload queue...
+[2023-06-07 06:42:27Z INFO JobServerQueue] Start process timeline update queue.
+[2023-06-07 06:42:27Z INFO ExecutionContext] Initialize GitHub context
+[2023-06-07 06:42:27Z INFO ExecutionContext] Initialize Env context
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Diag': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/_diag'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Diag': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/_diag'
+[2023-06-07 06:42:27Z INFO JobRunner] Starting the job execution context.
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Work': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/_work'
+[2023-06-07 06:42:27Z INFO JobRunner] Validating directory permissions for: '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/_work'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Work': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/_work'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Tools': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/_work/_tool'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Work': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/_work'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Temp': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/_work/_temp'
+[2023-06-07 06:42:27Z INFO JobRunner] Getting job extension.
+[2023-06-07 06:42:27Z INFO JobRunner] Initialize job. Getting all job steps.
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Diag': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/_diag'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Diag': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/_diag'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:42:27Z INFO HostContext] Well known config file 'Credentials': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.credentials'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:42:27Z INFO HostContext] Well known config file 'SetupInfo': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/.setup_info'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Work': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/_work'
+[2023-06-07 06:42:27Z INFO PipelineDirectoryManager] Loading tracking config if exists: /Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/_work/_PipelineMapping/Ankit-Kr-Verma/GithubActionsSample/PipelineFolder.json
+[2023-06-07 06:42:27Z INFO PipelineDirectoryManager] Updating job run properties.
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Work': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/_work'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Work': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/_work'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Work': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/_work'
+[2023-06-07 06:42:27Z INFO JobExtension] Downloading actions
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Work': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/_work'
+[2023-06-07 06:42:27Z INFO HostContext] Well known directory 'Actions': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/_work/_actions'
+[2023-06-07 06:42:28Z ERR  GitHubActionsService] POST request to https://pipelines.actions.githubusercontent.com/hqFeebPtRdnSjwA14Luw8i23gsNAau6pvqdHNsaWYLWZRgSkjX/00000000-0000-0000-0000-000000000000/_apis/distributedtask/hubs/Actions/plans/402a8200-de9f-4b6d-9354-c2f6d4c51641/actiondownloadinfo?jobId=0e10f8dd-85b5-5bee-19c6-47fc7db6f171 failed. HTTP Status: UnprocessableEntity, AFD Ref: Ref A: 5BF24FB19869472C8CD491A873ADEA7B Ref B: TYBEDGE0312 Ref C: 2023-06-07T06:42:28Z
+[2023-06-07 06:42:28Z ERR  JobExtension] Caught exception from JobExtension Initialization: GitHub.DistributedTask.WebApi.UnresolvableActionDownloadInfoException: Unable to resolve action `docker/login-action@v3`, unable to find version `v3`
+   at GitHub.Services.WebApi.VssHttpClientBase.HandleResponseAsync(HttpResponseMessage response, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Worker.ActionManager.GetDownloadInfoAsync(IExecutionContext executionContext, List`1 actions)
+   at GitHub.Runner.Worker.ActionManager.GetDownloadInfoAsync(IExecutionContext executionContext, List`1 actions)
+   at GitHub.Runner.Worker.ActionManager.PrepareActionsRecursiveAsync(IExecutionContext executionContext, PrepareActionsState state, IEnumerable`1 actions, Int32 depth, Guid parentStepId)
+   at GitHub.Runner.Worker.ActionManager.PrepareActionsAsync(IExecutionContext executionContext, IEnumerable`1 steps, Guid rootStepId)
+   at GitHub.Runner.Worker.JobExtension.InitializeJob(IExecutionContext jobContext, AgentJobRequestMessage message)
+[2023-06-07 06:42:28Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "setup_job",
+  "type": "runner",
+  "stage": "Pre",
+  "stepId": "3046c14a-6736-4b35-a1df-0bf08a9e07de",
+  "result": "failed",
+  "errorMessages": [
+    "Unable to resolve action `docker/login-action@v3`, unable to find version `v3`"
+  ],
+  "executionTimeInSeconds": 2,
+  "startTime": "2023-06-07T06:42:27.224953Z",
+  "finishTime": "2023-06-07T06:42:28.338701Z"
+}.
+[2023-06-07 06:42:28Z ERR  JobRunner] Job initialize failed.
+[2023-06-07 06:42:28Z ERR  JobRunner] Caught exception from InitializeJob: GitHub.DistributedTask.WebApi.UnresolvableActionDownloadInfoException: Unable to resolve action `docker/login-action@v3`, unable to find version `v3`
+   at GitHub.Services.WebApi.VssHttpClientBase.HandleResponseAsync(HttpResponseMessage response, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Worker.ActionManager.GetDownloadInfoAsync(IExecutionContext executionContext, List`1 actions)
+   at GitHub.Runner.Worker.ActionManager.GetDownloadInfoAsync(IExecutionContext executionContext, List`1 actions)
+   at GitHub.Runner.Worker.ActionManager.PrepareActionsRecursiveAsync(IExecutionContext executionContext, PrepareActionsState state, IEnumerable`1 actions, Int32 depth, Guid parentStepId)
+   at GitHub.Runner.Worker.ActionManager.PrepareActionsAsync(IExecutionContext executionContext, IEnumerable`1 steps, Guid rootStepId)
+   at GitHub.Runner.Worker.JobExtension.InitializeJob(IExecutionContext jobContext, AgentJobRequestMessage message)
+   at GitHub.Runner.Worker.JobRunner.RunAsync(AgentJobRequestMessage message, CancellationToken jobRequestCancellationToken)
+[2023-06-07 06:42:28Z INFO JobRunner] Shutting down the job server queue.
+[2023-06-07 06:42:28Z INFO JobServerQueue] Fire signal to shutdown all queues.
+[2023-06-07 06:42:28Z INFO JobServerQueue] Job timeline record has been updated for the first time.
+[2023-06-07 06:42:29Z INFO JobServer] Successfully started websocket client.
+[2023-06-07 06:42:29Z INFO JobServerQueue] Try to append 1 batches web console lines for record '3046c14a-6736-4b35-a1df-0bf08a9e07de', success rate: 1/1.
+[2023-06-07 06:42:29Z INFO JobServerQueue] All queue process task stopped.
+[2023-06-07 06:42:29Z INFO JobServerQueue] Try to append 1 batches web console lines for record '3046c14a-6736-4b35-a1df-0bf08a9e07de', success rate: 1/1.
+[2023-06-07 06:42:29Z INFO JobServerQueue] Web console line queue drained.
+[2023-06-07 06:42:29Z INFO JobServerQueue] Uploading 2 files in one shot.
+[2023-06-07 06:42:31Z INFO JobServerQueue] Try to upload 2 log files or attachments, success rate: 2/2.
+[2023-06-07 06:42:31Z INFO JobServerQueue] File upload queue drained.
+[2023-06-07 06:42:31Z INFO JobServerQueue] Starting results-based upload queue...
+[2023-06-07 06:42:31Z INFO JobServerQueue] Results upload queue drained.
+[2023-06-07 06:42:32Z INFO JobServerQueue] Timeline update queue drained.
+[2023-06-07 06:42:32Z INFO JobServerQueue] Disposing job server ...
+[2023-06-07 06:42:32Z INFO JobServerQueue] Disposing results server ...
+[2023-06-07 06:42:32Z INFO JobServerQueue] All queue process tasks have been stopped, and all queues are drained.
+[2023-06-07 06:42:32Z INFO TempDirectoryManager] Cleaning runner temp folder: /Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/_work/_temp
+[2023-06-07 06:42:32Z INFO HostContext] Well known directory 'Bin': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/bin'
+[2023-06-07 06:42:32Z INFO HostContext] Well known directory 'Root': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner'
+[2023-06-07 06:42:32Z INFO HostContext] Well known directory 'Diag': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/_diag'
+[2023-06-07 06:42:32Z INFO HostContext] Well known config file 'Telemetry': '/Users/ankit.c.verma/Documents/Projects/GithubActionExample/GithubActionsSample/actions-runner/_diag/.telemetry'
+[2023-06-07 06:42:32Z INFO JobRunner] Raising job completed event
+[2023-06-07 06:42:33Z INFO Worker] Job completed.
